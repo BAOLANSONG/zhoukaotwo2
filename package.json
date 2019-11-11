@@ -1,0 +1,34 @@
+{
+  "name": "zhoukao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cpus": "./cpus.js",
+    "platform": "./platform.js",
+    "types": "./type.js",
+    "userInfo": "./userInfo.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "cpus": {
+    "model": "Intel(R) Core(TM) i7 CPU   860 @ 2.80GHz",
+    "speed": 2926,
+    "times": {
+      "user": 252020,
+      "nice": 0,
+      "sys": 30340,
+      "idle": 1070356870,
+      "irq": 0
+    }
+  },
+  "dependencies": {
+    "@types/blessed": "^0.1.12",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.18"
+  }
+}
